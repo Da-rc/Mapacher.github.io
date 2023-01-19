@@ -500,7 +500,7 @@ article{
 	content: url("../imagenes/celo10.png");
 	position: absolute;
 	top: -50px;
-	left: -70px;
+	left: -40px;
 }
 #img8{					/* imagenes articulo7*/
 	width: 50%;
@@ -508,13 +508,6 @@ article{
 	margin-bottom: 30px;
 	margin-top: 30px;
 }
-/*#imgcelo7{
-	position: absolute;
-	width: 25%;
-	top: -24%;
-	left: 40%;
-	z-index:1;
-}*/
 @media only screen and (min-width: 768px){
 	#img8{					
 		width: 25%;
@@ -531,18 +524,16 @@ article{
 	align-content: center;
 	justify-content: center
 }
-
+#articulo8::before{
+	content: url("../imagenes/celo8.png");
+	position: absolute;
+	top: -50px;
+	right: -50px;
+}
 #img9{				/*imagen articulo8*/
 	width: 98%;
 	margin: auto;
 }
-/*#imgcelo8{
-	position: absolute;
-	width: 25%;
-	top: -23%;
-	left: 47%;
-	z-index:1;
-}*/
 @media only screen and (min-width: 768px){
 	#img9{				
 		width: 85%;
