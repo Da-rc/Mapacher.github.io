@@ -496,6 +496,12 @@ article{
 	align-content: center;
 	justify-content: center;
 }
+#articulo7::before{
+	content: url("../imagenes/celo10.png");
+	position: absolute;
+	top: -50px;
+	left: -70px;
+}
 #img8{					/* imagenes articulo7*/
 	width: 50%;
 	margin: auto;
