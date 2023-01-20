@@ -1,0 +1,707 @@
+*{
+	margin:0;
+}
+
+body{
+	background-image: url("../imagenes/fondo3.jpg");     
+	background-size: contain;
+	background-color: rgb(244,128,0,0.4);
+}
+
+/* header ---------------------------------------------------------------*/
+header{
+	background-image: url("../imagenes/fondo4.jpg");        
+	background-size: cover;
+	background-attachment: fixed;							
+	background-color: black;
+	margin: auto;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+
+h1{
+	font-family: "Press Start 2P", helvetica;				
+	font-size: calc(1em + 1.5vw);
+	color: #AEF359;
+	text-align:center;
+	text-shadow: 0 0 6px black;
+	margin-top:10%;
+}
+@media only screen and (min-width: 768px){
+	h1{
+		font-size:55px;
+		margin-top: 5%;
+	}
+	header{
+		height: 300px;
+	}
+}
+
+/* Navegador ------------------------------------------------------------ */
+nav{
+	background-image: url("../imagenes/fondo4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: black;
+	top:0;
+	width:100%;
+	height: 60px;
+	display: flex;											
+	flex-direction: row;
+	align-items: center;
+	position:fixed;
+	z-index:100;
+	box-shadow: 0 0 10px black;
+}
+
+h2{
+	font-family:"Press Start 2P", helvetica;
+	font-size:calc(0.6em + 1.5vw);
+	color: white;
+}
+@media only screen and (min-width: 768px){
+	h2{
+		font-size:25px;
+	}
+}
+
+/* menu oculto -------------------------------------------------------------*/
+
+li{
+	list-style-type: none;
+	margin:20px;
+}
+.clasif{
+	font-family: "Press Start 2P", helvetica;
+	font-size: 16px;
+	
+}
+.clasif2{
+	font-family: helvetica;
+	font-size: 16px;
+	margin-left: 5%;
+}
+
+.desplegable{
+	position: relative;
+}
+
+.iconodesplegable{
+	margin-left:15px;
+	border: none;
+	background-color:transparent;			
+}
+
+
+.contenidodesplegable{
+	display: none;					
+	position:absolute;
+	width:250px;
+	background-image: url("../imagenes/fondo2.webp");
+	background-color: black;
+	z-index: 10;							
+	
+}
+
+.contenidodesplegable a{  
+	color: #AEF359;
+	width:55%;
+	text-decoration: none;
+}
+
+.contenidodesplegable a:hover{color:white;} 
+
+
+/* Section ---------------------------------------------------------- */
+section{
+	position: relative;
+}
+
+h3{
+	text-align: center;
+	font-family: "Press Start 2P", helvetica;
+	font-size: calc(1em + 1.5vw);
+	margin-bottom: 35px;
+	margin-top: 100px;
+	color: #AEF359;
+}
+
+h4{
+	text-align: center;
+	margin:70px;
+	font-family: "Press Start 2P", helvetica;
+	font-size: calc(1.3em + 1.5vw);
+	margin-top: 150px;
+	margin-bottom: 20px;
+	color: #AEF359;
+}
+
+h5{
+	margin: 20px;
+	margin-bottom: 40px;
+	font-family: "Press Start 2P", helvetica;
+	font-size: calc(0.9em + 1.2vw);
+}
+
+@media only screen and (min-width: 768px){
+	h3{
+		font-size: 30px;
+		margin-top: 150px;
+	}
+	h4{
+		font-size: 50px;
+		margin-bottom: 70px;
+	}
+	h5{
+		font-size: 30px;
+	}
+}
+
+
+p{
+	margin: 10px;
+	font-family: helvetica;
+	font-size: calc(0.9em + 1vw);
+	text-align:center;
+	
+}
+
+@media only screen and (min-width: 768px){
+	p{
+		font-size: 18px;
+		font-weight: normal;
+	}
+}
+
+/* main ------------------------------------------------------------------*/
+main{
+	margin-top: 40px;
+	color: white;
+}
+
+/* article general --------------------------------------------------------*/
+article{
+	margin: auto;
+	margin-top: 100px;
+	width: 90%;
+	text-align: center;
+	border: solid 10px white;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-size: cover;
+	box-shadow: 10px 15px 15px 5px black;
+	position: relative;
+	padding-bottom: 4%;
+}
+@media only screen and (min-width: 768px){
+	/*deskpot*/
+	
+	article{
+		width: 55%;
+		border: solid 14px white;
+	}
+}
+@media only screen and (min-width: 768px){
+	.iconoretorno{
+		width: 4%;
+	}
+}
+
+/* ------------------------------------------------------------------------*/
+#articulo0{					/*Articulo: ¿qué es splatoon?*/
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+#articulo0::before{
+	content: url("../imagenes/celo7 (1).png");
+	position: absolute;
+	top: -60px;
+	left: -60px;
+}
+#articulo0::after{
+	content: url("../imagenes/celo9.png");
+	position: absolute;
+	top: -110px;
+	right: -75px;
+}
+#tituloart0{
+	font-size: 20px;
+	margin-top:40px;
+	margin-bottom:15px;
+}
+#box_trailer{
+	width: 80%;
+	padding-bottom: 56.25%;
+	height: 0px;
+	margin: auto;
+	position: relative;
+}
+#trailer{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	border-style: solid;
+	border-width: 8px;
+	border-color: white;
+	
+}
+
+#weboficial{
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	padding: 10px;
+	width: 150px;
+	background-color: #AEF359;
+	border-radius: 12px;
+	text-decoration: none;
+	font-family: "Press Start 2P", helvetica;
+	font-size: 10px;
+	color: black;
+}
+#weboficial a:hover{color: white}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo1{						/*Articulo: rodillos y brochas */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	margin-top: 2px;
+	
+}
+#articulo1::before{
+	content: url("../imagenes/celo.png");
+	position: absolute;
+	top: -90px;
+	left: -150px;
+}
+#img1{				/* imagenes articulo1 */
+	width:100%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+	
+	#articulo1{
+		width: 55%;
+		transform: rotate(4deg);
+	}
+	#img1{				
+		width:90%;
+		margin: auto;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo2{						/*Articulo: lanzatintas*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+}
+#articulo2::before{
+	content: url("../imagenes/celo2.png");
+	position: absolute;
+	top: -60px;
+	left: -100px;
+}
+#articulo2::after{
+	content: url("../imagenes/celo4.png");
+	position: absolute;
+	top: -30px;
+	right: -50px;
+}
+#lanzatintas{								/* de esta forma el título encaja en todo el espacio del articulo al que pertenece y el resto de elementos en flex pasan a la siguiente línea*/
+	width: 100%;
+}
+#img2{							/* imagenes articulo2 */
+	width: 50%;
+}
+#img3{				
+	width: 50%;
+}
+@media only screen and (min-width: 768px){
+	#img2{							
+		width: 23%;
+	}
+	#img3{				
+		width: 20%;
+	}
+}
+
+/* ------------------------------------------------------------------------*/
+
+#articulo3{	
+					/*Articulo: cargatintas*/
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	justify-content: center;
+	
+}
+#articulo3::before{
+	content: url("../imagenes/chincheta.png");
+	position: absolute;
+	top: -85px;
+	right: 20px;
+}
+#img4{				/* imagenes articulo3 */
+	width: 100%;
+	margin: auto;
+}
+@media only screen and (min-width: 768px){
+	#articulo3{
+		transform: rotate(-4deg);
+	}
+	#img4{				
+		width: 90%;
+		margin: auto;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo4{							/*Articulo: derramatic*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	justify-content: center;
+}
+#articulo4::before{
+	content: url("../imagenes/celo3.png");
+	position: absolute;
+	top: -50px;
+	left: -90px;
+}
+#img5{				/* imagen articulo4 */
+	width: 80%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+	#articulo4{
+		transform: rotate(2deg);
+	}
+	#img5{				
+		width: 60%;
+		margin: auto;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo5{						/*Articulo: Tintralladoras*/
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	justify-content: center;
+}
+#articulo5::before{
+	content: url("../imagenes/celo5.png");
+	position: absolute;
+	top: -50px;
+	left: -70px;
+}
+#img6{				/* imagenes articulo5*/
+	width: 100%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+	#img6{				
+		width: 85%;
+		margin: auto;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo6{							/*Articulo: duales*/
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	justify-content: center;
+}
+#articulo6::before{
+	content: url("../imagenes/celo6.png");
+	position: absolute;
+	top: -50px;
+	right: -70px;
+}
+#img7{				/* imagenes articulo6*/
+	width: 98%;
+	margin: auto;
+}
+
+@media only screen and (min-width: 768px){
+	#img7{				
+		width: 80%;
+		margin: auto;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo7{						/*Articulo: Paratintas*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	justify-content: center;
+}
+#articulo7::before{
+	content: url("../imagenes/celo10.png");
+	position: absolute;
+	top: -90px;
+	left: -50px;
+}
+#img8{					/* imagenes articulo7*/
+	width: 50%;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+@media only screen and (min-width: 768px){
+	#img8{					
+		width: 25%;
+		margin: auto;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+}
+
+
+/* ------------------------------------------------------------------------*/
+
+#articulo8{						/*Articulo: arcromatizador*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content: center;
+	justify-content: center
+}
+#articulo8::before{
+	content: url("../imagenes/celo8.png");
+	position: absolute;
+	top: -80px;
+	right: -60px;
+}
+#img9{				/*imagen articulo8*/
+	width: 98%;
+	margin: auto;
+}
+@media only screen and (min-width: 768px){
+	#img9{				
+		width: 85%;
+		margin: auto;
+	}
+}
+
+/* ------------------------------------------------------------------------*/
+   /*Articulo fotos ropa*/
+h6{
+	text-align: center;
+	font-family: "Press Start 2P", helvetica;
+	font-size: calc(1em + 1.5vw);
+	margin:40px;
+	margin-top: 150px;
+	color: #AEF359;
+}
+
+
+#moda{
+	width: 90%;
+	margin:auto;
+	margin-bottom: 50px;
+	border: none;
+	background: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	box-shadow: 0 0 0;
+}
+#titulomoda{
+	font-size: calc(0.9em + 1.2vw);
+	width: 100%;
+}
+#moda p{
+	width: 100%;
+}
+
+#imgmoda{
+	width: 90%;
+	border-style: solid;
+	border-width: 14px;
+	border-color: white;
+	margin: auto;
+	transform: rotate(-4deg);
+}
+
+#imgmoda2{
+	width: 90%;
+	border-style: solid;
+	border-width: 14px;
+	border-color: white;
+	margin: auto;
+	transform: rotate(1deg);
+}
+#imgmoda3{
+	width: 90%;
+	border-style: solid;
+	border-width: 14px;
+	border-color: white;
+	margin: auto;
+	transform: rotate(-4deg);
+}
+
+#imgmoda4{
+	width: 90%;
+	border-style: solid;
+	border-width: 14px;
+	border-color: white;
+	margin: auto;
+	transform: rotate(-3deg);
+}
+
+@media only screen and (min-width: 768px){
+	h6{
+		font-size: 50px;
+		margin:70px;
+	}
+	#moda{
+		width: 70%;
+	}
+	#titulomda{
+		font-size: 20px;
+	}
+	#imgmoda{
+		width: 52%;
+		margin-bottom: 3%;
+	}
+	#imgmoda2{
+		width: 45%;
+	}
+	#imgmoda3{
+		width: 45%;
+	}
+	#imgmoda4{
+		width: 45%;
+		margin-top:3%;
+	}
+	#retornomoda{
+		width:2%;
+	}
+}
+
+/*imagen final página*/
+#img10{
+	display:block;
+	margin: auto;
+	margin-top:15%;
+	width: 60%;
+}
+
+
+#publicidad{										/*ad*/
+	width: 90%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+	background-image: url("../imagenes/fondo2.webp");
+	background-size: cover;
+	margin: auto;
+	text-decoration: none;
+}
+aside p{
+	font-family: "Press Start 2P", helvetica;
+	font-size: 30px;
+	color: white;
+	align-self: center;
+}
+
+#imgcaratula{
+	width: 8%;
+}
+#imgcaratula2{										
+	width: 8%;
+}
+#publicidad:hover{background-image: url("../imagenes/fondo1.jpg"); background-size: cover;}
+
+@media only screen and (min-width: 768px){
+	#publicidad{
+		width: 40%;
+	}
+	#img10{
+		margin-top: 0;
+		width: 40%;
+	}
+}
+
+														/*ad*/
+
+
+
+
+footer{
+	margin-bottom: 100px;
+	margin-top: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+footer p{
+	font-family: "Press Start 2P", helvetica;
+	font-size: 13px;
+	margin-left: 15%;
+}
+
+@media only screen and (min-width: 768px){
+	
+	#articulo1{
+		width: 55%;
+	}
+	#articulo2{
+		width: 65%;
+	}
+	#articulo3{
+		width: 53%;	
+		margin-right: 8%;
+	}
+	#articulo5{
+		margin-left: 8%;
+	}
+	#articulo6{
+		margin-right: 8%;
+	}
+
+}

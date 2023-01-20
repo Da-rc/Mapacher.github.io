@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es"> 
+	<head>
+		<title>David R</title>
+		<link rel="stylesheet" href="Estilos/estilo_glosario.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<script src="desplegable.js"></script>
+	</head>
+	<body>
+		<header class="fondo">
+			<h1>Splatoon 3<br>Armas de combate</h1>
+		</header>
+		<nav class="fondo">
+			<div class="desplegable">
+				<button class="iconodesplegable" onclick="desplegable()">
+					<img src="imagenes/octo.png" alt="logo con forma de pulpo del juego Splatoon" Style= "width:60px;" id="iconomenu">
+				</button>
+				
+				<ul class="contenidodesplegable" id="menu_oculto">
+					<li><a href="#splatoon" class="clasif" onclick="cierra()">¿Qué es Splatoon 3?</a></li>
+					<li><a href="#armas" class="clasif" onclick="cierra()">Armas</a></li>
+					<li><a href="#articulo1" class="clasif2" onclick="cierra()"><b>Rodillos y brochas</b></a></li>
+					<li><a href="#articulo2" class="clasif2" onclick="cierra()"><b>Lanzatintas</b></a></li>
+					<li><a href="#articulo3" class="clasif2" onclick="cierra()"><b>Cargatintas</b></a></li>
+					<li><a href="#articulo4" class="clasif2" onclick="cierra()"><b>Derramatic</b></a></li>
+					<li><a href="#articulo5" class="clasif2" onclick="cierra()"><b>Tintralladoras</b></a></li>
+					<li><a href="#articulo6" class="clasif2" onclick="cierra()"><b>Duales</b></a></li>
+					<li><a href="#articulo7" class="clasif2" onclick="cierra()"><b>Paratintas</b></a></li>
+					<li><a href="#articulo8" class="clasif2" onclick="cierra()"><b>Acromatizador</b></a></li>
+					<li><a href="#refmoda" class="clasif" onclick="cierra()">Moda Inkling</a></li>
+				</ul>
+			</div>	
+			<h2>Menú</h2>
+		</nav>
+		<main>
+			<section>
+				<h3 id="splatoon">¿Qué es Splatoon 3?</h3>
+				<article id="articulo0">
+					<h5 id="tituloart0">La saga Splatoon</h5>
+					<p>Splatoon 3 es la tercera entrega de la serie de videojuegos Splatoon
+					perteneciente a Nintendo, publicada el 9 de septiembre de 2022
+					y está disponible en exclusiva para Nintendo Switch.<br>
+					<br>
+					En este videojuego asumimos el papel de un inkling o un octoling, 
+					una especie de híbrido entre un humano y un calamar. Nuestro objetivo 
+					será formar un equipo con otras tres personas y combatir contra
+					otros jugadores para ver qué equipo consigue entintar más superficie del mapa.<br>
+					Lo podemos clasificar como un shooter muy particular de partidas rápidas y frenéticas.<br>
+					<br>
+					Para entintar el escenario necesitaremos unas armas especiales que veremos a continuación</p>
+					<div id="box_trailer">
+						<iframe id="trailer" src="https://www.youtube.com/embed/RPwwXvafJBY" title="YouTube video player"></iframe>
+					</div>
+					<a href="https://splatoon.nintendo.com/es/" target="_blank" id="weboficial">
+						Web Oficial
+					</a>
+				</article>
+			</section>
+			<section>
+				
+				<h4 id="armas"> Armas </h4>
+				
+				<article id="articulo1">
+					<h5>Rodillos y brochas</h5>
+					<p>Potentes armas de corto alcanze que te permiten moverte rapidamente<br>
+					por el terreno mientras entintan todo a su paso.<br>
+					¡Ideal para abrir paso a tu equipo y para golpear a tus enemigos a brochazos!</p>
+					<img src="imagenes/roller.png"	alt="collage imagenes juego splatoon" id="img1">
+				</article>
+					
+				
+				<article id="articulo2">
+					<h5 id="lanzatintas">Lanzatintas</h5>
+					<img src="imagenes/lanzatintas2.png" alt="Personaje videojuego disparando pistola" id="img2">
+					<p>Pequeñas armas parecidas a pistolas de agua cargadas de tinta<br>
+					que realizan rápidos disparos.<br>
+					La mayoría de armas dentro de esta categoría <br>
+					disparan automaticamente mientras se<br>
+					tenga pulsado el botón de disparo<br>
+					aunque cuenta con varias excepciones semiautomáticas
+					</p>
+					<img src="imagenes/lanzatintas1.png" alt="Personaje videojuego con pistola" id="img3">
+				</article>
+				
+				
+				<article id="articulo3">
+					<h5>Cargatintas</h5>
+					<img src="imagenes/charger.png" alt="collage personajes con rifle" id="img4">
+					<p>Armas de larga distancia que deben carga el disparo antes de atacar.<br>
+					La clásica arma de sniper, con la peculiaridad de que los enemigos pueden ver<br>
+					dónde estás apuntando. Requieren de mucha precisión para tener un impacto<br>
+					positivo en el desarrollo de la partida
+					</p>
+				</article>
+				
+			
+				
+				<article id="articulo4">
+					<h5>Derramatic</h5>
+					<p>Armas con forma de cubo que arrojan tinta en grandes cantidades a una corta distancia<br>
+					hacia delante. Perfectas para atacar sobre obstáculos o para controlar el terreno <br>
+					desde un punto elevado. Algunas de las armas dentro de esta categoría modifican la forma<br>
+					en la que lanzan la tinta, como puede ser lanzar tinta en tres direcciones o en forma de burbujas
+					</p>
+					<img src="imagenes/derramatic.png" alt="2 Personajes videojuego con cubo lleno de tinta" id="img5">
+				</article>
+				
+				
+				
+				<article id="articulo5">
+					<h5>Tintralladoras</h5>
+					<p>Arma similar a una metralleta que debe ser cargada antes de poder disparar de forma continua<br>
+					durante varios segundos. Tienen gran alcance y una alta cadencia de fuego lo que las hace perfecta<br>
+					para controlar una zona del mapa desde una buena posición estratégica
+					</p>
+					<img src="imagenes/ametralladora.png" alt="collage de personaje con ametralladora" id="img6">
+				</article>
+				
+				
+				
+				<article id="articulo6">
+					<h5>Duales</h5>
+					<p>Pistolas dobles pensadas para quien prefiere ayudar a su equipo acabando con los enemigos<br>
+					que entintando el mapa. Estas armas otorgan a su portador la habilidad de realizar una pequeña esquiva<br>
+					y le da un bonus de ataque unos segundos tras realizarla</p>
+					<img src="imagenes/dualies.png" alt="collage personajes de videojuego con dos pistolas" id="img7">
+				</article>
+				
+				
+				
+				<article id="articulo7">
+					<h5>Paratintas</h5>
+					<img src="imagenes/brellas.png" alt="Personaje videojuego con paraguas" id="img8">
+					<p>Arma en forma de paraguas parecida a una escopeta que puede disparar tinta<br>
+					a la vez que despliega un escudo. Depende del modelo del paratintas el escudo se desplegará<br>
+					con cada disparo delante del jugador o se lanzará hacia delante recorriendo un camino recto
+					</p>
+				</article>
+				
+				
+				
+				<article id="articulo8">
+					<h5>Arcromatizador</h5>
+					<p>Una nueva arma introducida en Splatoon3 similar a un arco que dispara de forma parecida<br>
+					al cargatintas, con la diferencia de que las balas lanzadas explotan unos instantes después
+					de tocar el suelo.<br>
+					Tienen un disparo horizontal y otro vertical. </p>
+					<img src="imagenes/archer.png" alt="collage personaje videojuegos con arco" id="img9">
+				</article>
+				
+			</section>
+			<section>
+				<h6 id="refmoda">Moda Inkling</h6>
+				<article id="moda">
+					<h5 id="titulomoda">¿Qué es más importante que entintar el mapa?</h5>
+					<p>¡Hacerlo siendo el mejor vestido!<br>
+					La moda es uno de los puntos más importantes de Splatoon, <br>
+					con muchísimas opciones para crearte el mejor look con el que vencer al equipo rival.<br>
+					¡Mix and match! </p>
+					<img src="imagenes/moda1.avif" alt="personajes de Splatoon" id="imgmoda">
+					<img src="imagenes/moda3.jpg" alt="personajes de Splatoon" id="imgmoda2">
+					<img src="imagenes/moda2.webp" alt="personajes de Splatoon" id="imgmoda3">
+					<img src="imagenes/moda4.jpg" alt="personajes de Splatoon" id="imgmoda4">
+				</article>
+			</section>
+			
+			<img src="imagenes/imagen.png" alt="Personaje splatoon delante de una taquilla" id="img10">
+			
+			<aside>
+				<a href="https://www.nintendo.es/Juegos/Juegos-de-Nintendo-Switch/Splatoon-3-1924751.html" id="publicidad">
+					<img src="imagenes/caratula.png"	alt="caratula videojuego Splatoon3" id="imgcaratula">
+					<p>BUY NOW!</p>
+					<img src="imagenes/caratula.png"	alt="caratula videojuego Splatoon3" id="imgcaratula2">
+				</a>
+			</aside>
+			<footer>
+				<p>Autor: David R</p>
+			</footer>
+		</main>
+	</body>
