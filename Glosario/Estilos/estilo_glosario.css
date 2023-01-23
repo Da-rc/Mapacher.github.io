@@ -541,10 +541,10 @@ h6{
 	border: none;
 	background: none;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	align-content: space-between;
+	
+	align-content: center;
 	box-shadow: 0 0 0;
 }
 #titulomoda{
@@ -597,6 +597,9 @@ h6{
 	}
 	#moda{
 		width: 70%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-content: space-between;
 	}
 	#titulomda{
 		font-size: 20px;
